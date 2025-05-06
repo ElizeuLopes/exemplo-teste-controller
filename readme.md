@@ -61,3 +61,48 @@ Para rodar os testes, rode o seguinte comando
 ```bash
   mvn test
 ```
+
+
+
+
+Título do PR (Pull Request)
+
+✨ [FEATURE] Adiciona componente de carrinho de compras
+Descrição
+
+Objetivo:
+Adiciona um novo componente de carrinho de compras responsivo com funcionalidades básicas.
+
+Alterações realizadas:
+
+    ✅ Criado componente ShoppingCart.vue
+
+    ✅ Implementada lógica para adicionar/remover itens
+
+    ✅ Adicionada animação de transição
+
+    ✅ Criados testes unitários básicos
+
+Tarefas relacionadas:
+Resolve #123 (Issue: "Carrinho de compras não existe")
+Screenshots/Preview
+Desktop	Mobile
+Desktop	Mobile
+Checklist de revisão
+
+    O código segue nossos padrões de estilo
+
+    Os testes passam localmente
+
+    Documentação atualizada (se aplicável)
+
+    Responsividade testada em múltiplos dispositivos
+
+Observações adicionais
+
+Este PR depende da merge da branch feature/product-api para funcionar corretamente.
+Sugiro revisar primeiro os arquivos principais:
+
+    src/components/ShoppingCart.vue
+
+    tests/unit/ShoppingCart.spec.js
